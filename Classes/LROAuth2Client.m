@@ -157,8 +157,14 @@
     }
   }
   else {
+    NSError *error = nil;
     if (operation.connectionError) {
+      error = operation.connectionError;
       NSLog(@"Connection error: %@", operation.connectionError);
+    }
+    
+    if ([self.delegate respondsToSelector:@selector(oauthClient:authorizationFailed:)]) {
+      [self.delegate oauthClient:self authorizationFailed:error];
     }
   }
 }

@@ -119,8 +119,10 @@
 				A3F8C12D119DEFF80035081C /* Categories */,
 				A3F8BFB9119DEE390035081C /* LROAuth2 */,
 			);
+			indentWidth = 2;
 			path = Classes;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		32C88DFF0371C24200C91783 /* Other Sources */ = {
 			isa = PBXGroup;
