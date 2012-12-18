@@ -6,13 +6,11 @@
 //  Copyright 2010 LJR Software Limited. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
-
-@interface LROAuth2AccessToken : UIView <NSCoding> {
+@interface LROAuth2AccessToken : NSObject <NSCoding> {
   NSDictionary *authResponseData;
   NSDate *expiresAt;
 }
+@property (nonatomic, copy, readonly) NSDictionary *authResponseData;
 @property (unsafe_unretained, nonatomic, readonly) NSString *accessToken;
 @property (unsafe_unretained, nonatomic, readonly) NSString *refreshToken;
 @property (nonatomic, readonly) NSDate *expiresAt;

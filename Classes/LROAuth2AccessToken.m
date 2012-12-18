@@ -9,7 +9,7 @@
 #import "LROAuth2AccessToken.h"
 
 @interface LROAuth2AccessToken ()
-@property (nonatomic, copy) NSDictionary *authResponseData;
+@property (nonatomic, copy, readwrite) NSDictionary *authResponseData;
 - (void)extractExpiresAtFromResponse;
 @end
 
