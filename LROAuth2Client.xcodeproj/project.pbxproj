@@ -21,12 +21,12 @@
 		A3289EBA122D758F00D89A88 /* LROAuth2AccessToken.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F8BFBE119DEE450035081C /* LROAuth2AccessToken.m */; };
 		A3289EBC122D758F00D89A88 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3F8C124119DEFD50035081C /* SystemConfiguration.framework */; };
 		A3289EBD122D758F00D89A88 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3F8C126119DEFDE0035081C /* UIKit.framework */; };
-		A3289FD6122D819500D89A88 /* LROAuth2Client.h in Headers */ = {isa = PBXBuildFile; fileRef = A3F8BFBA119DEE450035081C /* LROAuth2Client.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A3289FD7122D819500D89A88 /* LROAuth2ClientDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A3F8BFBC119DEE450035081C /* LROAuth2ClientDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A3289FD8122D819500D89A88 /* LROAuth2AccessToken.h in Headers */ = {isa = PBXBuildFile; fileRef = A3F8BFBD119DEE450035081C /* LROAuth2AccessToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A3289FD9122D819800D89A88 /* LROAuth2Client.h in Headers */ = {isa = PBXBuildFile; fileRef = A3F8BFBA119DEE450035081C /* LROAuth2Client.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A3289FDA122D819800D89A88 /* LROAuth2ClientDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A3F8BFBC119DEE450035081C /* LROAuth2ClientDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A3289FDB122D819800D89A88 /* LROAuth2AccessToken.h in Headers */ = {isa = PBXBuildFile; fileRef = A3F8BFBD119DEE450035081C /* LROAuth2AccessToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3289FD6122D819500D89A88 /* LROAuth2Client.h in Headers */ = {isa = PBXBuildFile; fileRef = A3F8BFBA119DEE450035081C /* LROAuth2Client.h */; settings = {ATTRIBUTES = (); }; };
+		A3289FD7122D819500D89A88 /* LROAuth2ClientDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A3F8BFBC119DEE450035081C /* LROAuth2ClientDelegate.h */; settings = {ATTRIBUTES = (); }; };
+		A3289FD8122D819500D89A88 /* LROAuth2AccessToken.h in Headers */ = {isa = PBXBuildFile; fileRef = A3F8BFBD119DEE450035081C /* LROAuth2AccessToken.h */; settings = {ATTRIBUTES = (); }; };
+		A3289FD9122D819800D89A88 /* LROAuth2Client.h in Headers */ = {isa = PBXBuildFile; fileRef = A3F8BFBA119DEE450035081C /* LROAuth2Client.h */; settings = {ATTRIBUTES = (); }; };
+		A3289FDA122D819800D89A88 /* LROAuth2ClientDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A3F8BFBC119DEE450035081C /* LROAuth2ClientDelegate.h */; settings = {ATTRIBUTES = (); }; };
+		A3289FDB122D819800D89A88 /* LROAuth2AccessToken.h in Headers */ = {isa = PBXBuildFile; fileRef = A3F8BFBD119DEE450035081C /* LROAuth2AccessToken.h */; settings = {ATTRIBUTES = (); }; };
 		A3ABE4D61528797B006E9AC0 /* LRURLRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = A3ABE4D41528797B006E9AC0 /* LRURLRequestOperation.h */; };
 		A3ABE4D71528797B006E9AC0 /* LRURLRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = A3ABE4D41528797B006E9AC0 /* LRURLRequestOperation.h */; };
 		A3ABE4D81528797B006E9AC0 /* LRURLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A3ABE4D51528797B006E9AC0 /* LRURLRequestOperation.m */; };
@@ -167,10 +167,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3ABE4D61528797B006E9AC0 /* LRURLRequestOperation.h in Headers */,
 				A3289FD6122D819500D89A88 /* LROAuth2Client.h in Headers */,
 				A3289FD7122D819500D89A88 /* LROAuth2ClientDelegate.h in Headers */,
 				A3289FD8122D819500D89A88 /* LROAuth2AccessToken.h in Headers */,
-				A3ABE4D61528797B006E9AC0 /* LRURLRequestOperation.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,10 +178,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3ABE4D71528797B006E9AC0 /* LRURLRequestOperation.h in Headers */,
 				A3289FD9122D819800D89A88 /* LROAuth2Client.h in Headers */,
 				A3289FDA122D819800D89A88 /* LROAuth2ClientDelegate.h in Headers */,
 				A3289FDB122D819800D89A88 /* LROAuth2AccessToken.h in Headers */,
-				A3ABE4D71528797B006E9AC0 /* LRURLRequestOperation.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +294,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
@@ -309,6 +310,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
