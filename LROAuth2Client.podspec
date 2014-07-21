@@ -9,6 +9,6 @@ Pod::Spec.new do |s|
   s.framework       = 'CFNetwork', 'SystemConfiguration'
   s.ios.deployment_target = '5.0'
 
-  s.source_files = 'LWOAuth2Client/**/*.{h,m}'
+  s.source_files = 'Classes/**/*.{h,m}', '*.{h,m}'
   s.requires_arc = true
 end
