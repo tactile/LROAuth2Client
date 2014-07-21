@@ -6,10 +6,10 @@
 //  Copyright 2010 LJR Software Limited. All rights reserved.
 //
 
-#import "NSDictionary+QueryString.h"
-#import "NSString+QueryString.h"
+#import "NSDictionary+LROQueryString.h"
+#import "NSString+LROQueryString.h"
 
-@implementation NSDictionary (QueryString)
+@implementation NSDictionary (LROQueryString)
 
 + (NSDictionary *)dictionaryWithFormEncodedString:(NSString *)encodedString
 {

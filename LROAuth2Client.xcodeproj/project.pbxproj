@@ -9,14 +9,14 @@
 /* Begin PBXBuildFile section */
 		A3289DAD122D707B00D89A88 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3F8C124119DEFD50035081C /* SystemConfiguration.framework */; };
 		A3289DAE122D707B00D89A88 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3F8C126119DEFDE0035081C /* UIKit.framework */; };
-		A3289DAF122D708700D89A88 /* NSDictionary+QueryString.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F8C24B119DF7420035081C /* NSDictionary+QueryString.m */; };
-		A3289DB0122D708700D89A88 /* NSString+QueryString.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F8C24C119DF7420035081C /* NSString+QueryString.m */; };
-		A3289DB1122D708700D89A88 /* NSURL+QueryInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F8C130119DF00D0035081C /* NSURL+QueryInspector.m */; };
+		A3289DAF122D708700D89A88 /* NSDictionary+LROQueryString.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F8C24B119DF7420035081C /* NSDictionary+LROQueryString.m */; };
+		A3289DB0122D708700D89A88 /* NSString+LROQueryString.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F8C24C119DF7420035081C /* NSString+LROQueryString.m */; };
+		A3289DB1122D708700D89A88 /* NSURL+LROQueryInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F8C130119DF00D0035081C /* NSURL+LROQueryInspector.m */; };
 		A3289DB2122D708700D89A88 /* LROAuth2Client.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F8BFBB119DEE450035081C /* LROAuth2Client.m */; };
 		A3289DB3122D708700D89A88 /* LROAuth2AccessToken.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F8BFBE119DEE450035081C /* LROAuth2AccessToken.m */; };
-		A3289EB6122D758F00D89A88 /* NSDictionary+QueryString.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F8C24B119DF7420035081C /* NSDictionary+QueryString.m */; };
-		A3289EB7122D758F00D89A88 /* NSString+QueryString.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F8C24C119DF7420035081C /* NSString+QueryString.m */; };
-		A3289EB8122D758F00D89A88 /* NSURL+QueryInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F8C130119DF00D0035081C /* NSURL+QueryInspector.m */; };
+		A3289EB6122D758F00D89A88 /* NSDictionary+LROQueryString.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F8C24B119DF7420035081C /* NSDictionary+LROQueryString.m */; };
+		A3289EB7122D758F00D89A88 /* NSString+LROQueryString.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F8C24C119DF7420035081C /* NSString+LROQueryString.m */; };
+		A3289EB8122D758F00D89A88 /* NSURL+LROQueryInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F8C130119DF00D0035081C /* NSURL+LROQueryInspector.m */; };
 		A3289EB9122D758F00D89A88 /* LROAuth2Client.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F8BFBB119DEE450035081C /* LROAuth2Client.m */; };
 		A3289EBA122D758F00D89A88 /* LROAuth2AccessToken.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F8BFBE119DEE450035081C /* LROAuth2AccessToken.m */; };
 		A3289EBC122D758F00D89A88 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3F8C124119DEFD50035081C /* SystemConfiguration.framework */; };
@@ -45,12 +45,12 @@
 		A3F8BFBE119DEE450035081C /* LROAuth2AccessToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LROAuth2AccessToken.m; sourceTree = "<group>"; };
 		A3F8C124119DEFD50035081C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		A3F8C126119DEFDE0035081C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		A3F8C12F119DF00C0035081C /* NSURL+QueryInspector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+QueryInspector.h"; sourceTree = "<group>"; };
-		A3F8C130119DF00D0035081C /* NSURL+QueryInspector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+QueryInspector.m"; sourceTree = "<group>"; };
-		A3F8C24B119DF7420035081C /* NSDictionary+QueryString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+QueryString.m"; sourceTree = "<group>"; };
-		A3F8C24C119DF7420035081C /* NSString+QueryString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+QueryString.m"; sourceTree = "<group>"; };
-		A3F8C254119DF7790035081C /* NSDictionary+QueryString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+QueryString.h"; sourceTree = "<group>"; };
-		A3F8C258119DF79D0035081C /* NSString+QueryString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+QueryString.h"; sourceTree = "<group>"; };
+		A3F8C12F119DF00C0035081C /* NSURL+LROQueryInspector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+LROQueryInspector.h"; sourceTree = "<group>"; };
+		A3F8C130119DF00D0035081C /* NSURL+LROQueryInspector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+LROQueryInspector.m"; sourceTree = "<group>"; };
+		A3F8C24B119DF7420035081C /* NSDictionary+LROQueryString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+LROQueryString.m"; sourceTree = "<group>"; };
+		A3F8C24C119DF7420035081C /* NSString+LROQueryString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LROQueryString.m"; sourceTree = "<group>"; };
+		A3F8C254119DF7790035081C /* NSDictionary+LROQueryString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+LROQueryString.h"; sourceTree = "<group>"; };
+		A3F8C258119DF79D0035081C /* NSString+LROQueryString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LROQueryString.h"; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* LROAuth2Client_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LROAuth2Client_Prefix.pch; sourceTree = "<group>"; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B25E603F11CFB44E001DA5CD /* Test App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Test App-Info.plist"; sourceTree = "<group>"; };
@@ -149,12 +149,12 @@
 		A3F8C12D119DEFF80035081C /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				A3F8C254119DF7790035081C /* NSDictionary+QueryString.h */,
-				A3F8C24B119DF7420035081C /* NSDictionary+QueryString.m */,
-				A3F8C258119DF79D0035081C /* NSString+QueryString.h */,
-				A3F8C24C119DF7420035081C /* NSString+QueryString.m */,
-				A3F8C12F119DF00C0035081C /* NSURL+QueryInspector.h */,
-				A3F8C130119DF00D0035081C /* NSURL+QueryInspector.m */,
+				A3F8C254119DF7790035081C /* NSDictionary+LROQueryString.h */,
+				A3F8C24B119DF7420035081C /* NSDictionary+LROQueryString.m */,
+				A3F8C258119DF79D0035081C /* NSString+LROQueryString.h */,
+				A3F8C24C119DF7420035081C /* NSString+LROQueryString.m */,
+				A3F8C12F119DF00C0035081C /* NSURL+LROQueryInspector.h */,
+				A3F8C130119DF00D0035081C /* NSURL+LROQueryInspector.m */,
 			);
 			name = Categories;
 			path = ..;
@@ -256,9 +256,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3289DAF122D708700D89A88 /* NSDictionary+QueryString.m in Sources */,
-				A3289DB0122D708700D89A88 /* NSString+QueryString.m in Sources */,
-				A3289DB1122D708700D89A88 /* NSURL+QueryInspector.m in Sources */,
+				A3289DAF122D708700D89A88 /* NSDictionary+LROQueryString.m in Sources */,
+				A3289DB0122D708700D89A88 /* NSString+LROQueryString.m in Sources */,
+				A3289DB1122D708700D89A88 /* NSURL+LROQueryInspector.m in Sources */,
 				A3289DB2122D708700D89A88 /* LROAuth2Client.m in Sources */,
 				A3289DB3122D708700D89A88 /* LROAuth2AccessToken.m in Sources */,
 				A3ABE4D81528797B006E9AC0 /* LRURLRequestOperation.m in Sources */,
@@ -269,9 +269,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3289EB6122D758F00D89A88 /* NSDictionary+QueryString.m in Sources */,
-				A3289EB7122D758F00D89A88 /* NSString+QueryString.m in Sources */,
-				A3289EB8122D758F00D89A88 /* NSURL+QueryInspector.m in Sources */,
+				A3289EB6122D758F00D89A88 /* NSDictionary+LROQueryString.m in Sources */,
+				A3289EB7122D758F00D89A88 /* NSString+LROQueryString.m in Sources */,
+				A3289EB8122D758F00D89A88 /* NSURL+LROQueryInspector.m in Sources */,
 				A3289EB9122D758F00D89A88 /* LROAuth2Client.m in Sources */,
 				A3289EBA122D758F00D89A88 /* LROAuth2AccessToken.m in Sources */,
 				A3ABE4D91528797B006E9AC0 /* LRURLRequestOperation.m in Sources */,

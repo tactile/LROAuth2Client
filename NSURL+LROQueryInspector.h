@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 
-@interface NSURL (QueryInspector)
+@interface NSURL (LROQueryInspector)
 
 - (NSDictionary *)queryDictionary;
 

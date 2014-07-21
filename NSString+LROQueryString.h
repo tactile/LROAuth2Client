@@ -6,7 +6,7 @@
 //  Copyright 2010 LJR Software Limited. All rights reserved.
 //
 
-@interface NSString (QueryString)
+@interface NSString (LROQueryString)
 
 - (NSString*)stringByEscapingForURLQuery;
 - (NSString*)stringByUnescapingFromURLQuery;

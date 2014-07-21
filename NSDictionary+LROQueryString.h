@@ -6,7 +6,7 @@
 //  Copyright 2010 LJR Software Limited. All rights reserved.
 //
 
-@interface NSDictionary (QueryString)
+@interface NSDictionary (LROQueryString)
 
 + (NSDictionary *)dictionaryWithFormEncodedString:(NSString *)encodedString;
 - (NSString *)stringWithFormEncodedComponents;

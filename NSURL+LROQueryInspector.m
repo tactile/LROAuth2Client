@@ -6,10 +6,10 @@
 //  Copyright 2010 LJR Software Limited. All rights reserved.
 //
 
-#import "NSURL+QueryInspector.h"
-#import "NSDictionary+QueryString.h"
+#import "NSURL+LROQueryInspector.h"
+#import "NSDictionary+LROQueryString.h"
 
-@implementation NSURL (QueryInspector)
+@implementation NSURL (LROQueryInspector)
 
 - (NSDictionary *)queryDictionary;
 {

@@ -6,9 +6,9 @@
 //  Copyright 2010 LJR Software Limited. All rights reserved.
 //
 
-#import "NSString+QueryString.h"
+#import "NSString+LROQueryString.h"
 
-@implementation NSString (QueryString)
+@implementation NSString (LROQueryString)
 
 - (NSString*)stringByEscapingForURLQuery
 {

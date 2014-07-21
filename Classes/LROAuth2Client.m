@@ -7,10 +7,10 @@
 //
 
 #import "LROAuth2Client.h"
-#import "NSURL+QueryInspector.h"
+#import "NSURL+LROQueryInspector.h"
 #import "LROAuth2AccessToken.h"
 #import "LRURLRequestOperation.h"
-#import "NSDictionary+QueryString.h"
+#import "NSDictionary+LROQueryString.h"
 
 #pragma mark -
 
