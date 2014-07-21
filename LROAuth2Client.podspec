@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name            = 'LWOAuth2Client'
+  s.name            = 'LROAuth2Client'
   s.version         = '0.0.1'
   s.summary         = 'OAuth2 client for iPhone and iPad apps'
   s.homepage        = 'https://github.com/lukeredpath/LROAuth2Client'
