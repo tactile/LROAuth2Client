@@ -163,8 +163,8 @@
       NSLog(@"Connection error: %@", operation.connectionError);
     }
     
-    if ([self.delegate respondsToSelector:@selector(oauthClient:authorizationFailed:)]) {
-      [self.delegate oauthClient:self authorizationFailed:error];
+    if ([self.delegate respondsToSelector:@selector(oauthClient:authorizationFailed:response:data:)]) {
+      [self.delegate oauthClient:self authorizationFailed:error response:response data:operation.responseData];
     }
   }
 }

@@ -17,7 +17,7 @@
 - (void)oauthClientDidRefreshAccessToken:(LROAuth2Client *)client;
 
 @optional
-- (void)oauthClient:(LROAuth2Client *)client authorizationFailed:(NSError *)error;
+- (void)oauthClient:(LROAuth2Client *)client authorizationFailed:(NSError *)error response:(NSURLResponse *)response data:(NSData *)data;
 - (void)oauthClientDidReceiveAccessCode:(LROAuth2Client *)client;
 - (void)oauthClientDidCancel:(LROAuth2Client *)client;
 
